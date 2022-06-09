@@ -1,0 +1,693 @@
+html{
+
+    
+    font-size: 62.5%;
+}
+@media (max-width: 37.5em)
+{
+   html{
+    font-size:50%;
+   }
+   body {
+         padding: 3rem;
+   }
+
+}
+@media (max-width:56.25em)
+{
+   html{
+    font-size:50%;
+   }
+   body {
+    padding: 3rem;
+}
+}
+@media (max-width: 75em)
+{
+   html{
+    font-size:50%;
+   }
+   body {
+    padding: 3rem;
+}
+
+}
+@media (max-width: 112.5em)
+{
+   html{
+    font-size:50%;
+   }
+   body {
+    padding: 3rem;
+}
+}
+
+*,*::after,*::before
+{
+     margin: 0; 
+    box-sizing: inherit;
+
+}
+body{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+
+}
+.header
+{
+
+    height: 50rem;
+   background-image:url(https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2021/03/SR-main-banner-BG.jpg);
+   background-size: cover;
+   
+     
+
+}
+.header-nav
+{
+   
+
+
+}
+.nav-items
+{
+    text-align: center;
+    
+
+}
+
+
+.logo-img
+{
+     display: inline-block;
+    margin-bottom: -1rem;
+    margin-top: 2rem;
+}
+.logo-margin
+{
+    margin-bottom: -1rem;
+    margin-top: 2rem;
+}
+
+.nav-a::after {
+    content: ' \02EF';
+}
+
+
+.nav-a:link,.nav-a:visited
+{
+    
+
+ text-decoration: none;
+ font-size:2rem;
+ padding:3rem;
+ display: inline-block;
+
+
+
+
+}
+.a-color
+{
+
+    color: white;
+}
+.nav-a:hover{
+
+    border-top: 1rem solid white;
+}
+.login
+{
+     
+
+    text-decoration: none;
+ font-size:2rem;
+  padding-left: 15rem;
+ background-color:transparent;
+ color: white;
+
+}
+
+.free:link,.free:visited
+{
+
+    text-decoration: none;
+    font-size:2rem;
+    font-weight: bold;
+        background-color:white;
+        padding:2rem;
+        margin-left: 2rem;
+    border-radius: 3rem;
+    
+    color:black;
+}
+.free:hover{
+
+    color: blue;
+
+}
+
+.nav-text
+{
+
+    color: white;
+}
+.nav-h1
+{
+
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+.nav-p
+{
+
+    font-size: 2rem;
+    margin-top: 4rem;
+   
+}
+
+.nav-p1
+{
+
+    margin-top: 0;
+    padding: 1rem;
+}
+.sign-in
+{
+     display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+   text-decoration: none;
+   padding:2rem;
+   background-color: white;
+   color:black;
+   border-radius:3rem ;
+   margin-top: 4rem;
+
+}
+.sign-in:hover{
+
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+
+}
+.main-section-1{
+
+    
+
+}
+.section{
+
+    background-color: #5405c2;
+    height: 30rem;
+
+
+}
+.section-division
+{
+
+     text-align: center;
+     padding: 3rem;
+     font-size: 2rem;
+}
+.row-1
+{
+    max-width: 114rem;
+  margin:0 auto;
+  
+  
+}
+
+
+.col-1
+{
+font-size: 2rem;
+width: calc((100% - 4*6rem)/4);
+height: 15rem;
+width:25rem;
+
+float: left;
+background-color: white;
+border-radius: 3rem;
+
+
+}
+
+.col-1:not(:last-child)
+{
+ 
+    margin-right: 3rem;
+    
+}
+@media (max-width:56.25em)
+{
+    .col-1{
+width:100% !important
+    }
+
+}
+
+
+.icon-1
+{
+     
+     float: left;
+     padding: 2rem;
+     
+
+}
+.row-division
+{
+
+    margin-top: 3rem;
+    padding:5px;
+
+
+}
+.row-2
+{
+     max-width:114rem;
+     margin:0 auto;
+     margin-bottom: 5rem ;
+    
+
+}
+.row-2::after{
+  
+    content: "";
+    clear: both;
+    display: table;
+    
+
+}
+
+.col-2
+{
+    padding: 10rem;
+    width:calc((100% - 6rem)/2);
+    float:left;
+    height: 55rem;
+    position: relative;
+
+}
+.col-2:not(:last-child)
+{
+
+    margin-right:6rem;
+}
+.icon-2
+{
+
+    display: inline-block;
+   
+    margin-left: -13rem;
+    
+}
+@media (max-width:56.25em)
+{
+    .col-2{
+width:100% !important;
+    }
+
+}
+.section-heading
+{
+
+    font-size: 2rem;
+    margin-left: 9rem;
+    margin-right: -9em;
+    padding-bottom: 2rem;
+}
+.list-1
+{
+  font-size: 16px;
+  font-weight:bold;
+  font-family: "GoogleSans-Bold";
+  
+
+}
+.list-items
+{
+
+    padding: 1rem;
+    margin-left: 10rem;
+    margin-right: -28rem;
+}
+.section-a
+{
+ 
+    display: inline-block;
+    color: #5405c2;
+    margin-left: 8rem;
+    margin-right: -5rem;
+    text-decoration: none;
+}
+.section-inside
+{
+    font-size: 16px;
+    color: #5405c2;
+    text-decoration: none;
+    font-weight:bold;
+
+}
+.icon-3{
+
+
+    display: inline;
+    margin-bottom:-4rem;
+    
+}
+.section-color{
+    
+    color:#ff9900;
+}
+
+.unic-icon
+{
+    display: inline-block;
+    position: absolute;
+    top: 6rem;
+    left: 1ram;
+    right: 32rem;
+}
+
+.section-a-1
+{
+    font-size:2rem;
+    display:inline-block ;
+   text-decoration:none;
+    padding: 2rem;
+    background-color:white;
+    border-radius:3rem;
+    border:1px solid blue;
+    color:#5405c2;
+    margin-left:12rem; 
+    margin-top:2rem
+}
+.section-a-1:hover{
+
+    background-color: #5405c2;
+    color: white;
+}
+
+.unic-icon-1
+{
+    display: inline-block;
+    position: absolute;
+    top: 6rem;
+    left: 1ram;
+    right: 46rem;
+}
+.icon-4
+{
+    display: inline-block;
+    margin-bottom: -4rem;
+    margin-left: -15rem;
+}
+
+
+
+.section-heading-1
+{
+
+    font-size: 2rem;
+    margin-left: -6rem;
+    margin-right: -9em;
+    padding-bottom: 1rem;
+}
+
+.list-2
+{
+
+    font-size: 16px;
+  font-weight:bold;
+  font-family: "GoogleSans-Bold";
+  
+}
+.list-items-1
+{
+
+
+    padding: 1rem;
+    margin-left: -6rem;
+    margin-right: -28rem;
+
+}
+.section-a-2
+{
+
+    font-size:2rem;
+    display:inline-block ;
+   text-decoration:none;
+    padding: 2rem;
+    background-color:white;
+    border-radius:3rem;
+    border:1px solid blue;
+    color:#5405c2;
+    margin-left:-9rem; 
+    margin-top:2rem
+}
+.section-a-2:hover{
+
+    background-color: #5405c2;
+    color: white;
+}
+.icon-5
+{
+
+    
+    display: inline-block;
+   
+    margin-left: 9rem;
+    margin-top:-2rem;
+    
+}
+.blue-color
+{
+
+    color:#5405c2;
+    
+
+}
+.row-3
+{
+     max-width:114rem;
+     margin:0 auto;
+     
+     
+
+}
+.main-section-3-division-1
+{
+
+height: 60rem;
+
+background-color: #3aa8e6;;
+
+}
+.row-4{
+
+    max-width:114rem;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+}
+.col-6
+{    
+
+    margin-top: 4rem;
+     width:calc((100% - 6rem)/2);
+    
+     float: left;
+     height:55rem;
+     
+
+}
+.col-6:not(:last-child)
+{
+    margin-right:6rem;
+}
+.img-6
+{
+
+     margin-top:6rem;
+
+}
+.section-main-p
+{
+   font-size: 18px;
+   color:white
+
+}
+.row-5
+{
+ max-width:114rem;
+
+
+
+}
+.row-col-1
+{
+
+   width:calc((100% - 3*6rem)/3);
+   background-color:white;
+   height: 17rem;
+   width: 56rem;
+  border-radius: 3rem;
+  position:relative;
+  margin-bottom: 1rem;
+
+}
+
+.section-main-p-2
+{
+    
+    font-size: 16px;
+    padding-bottom: 1rem;
+  
+
+}
+.p-text
+{
+    
+    display: inline-block;
+    margin-top: 3rem;
+    text-align: left;
+    margin-left: 9rem;
+}
+.section-main-p-1
+{
+    margin-bottom:2rem;
+    font-size: 18px;
+}
+.img-7
+
+{
+position:absolute;
+top: 23px;
+left: 33px;
+}
+.section-h4
+{
+    margin-top:3rem;
+
+}
+.row-7
+{
+    max-width:114rem;
+    margin:0 auto;
+    margin-bottom: 8rem;
+
+}
+.row-col-2
+{
+   width:calc((100% - 4*6rem)/4);
+   float:left;
+  
+ height: 32rem;
+ width:26rem;
+
+
+}
+.row-col-2:not(:last-child){
+
+    margin-right: 1rem;
+
+}
+.main-section-division-1
+{
+
+    text-align:center;
+}
+.main-section-4{
+
+    height: 47rem;
+    
+}
+.main-section-5{
+    background-color: #f9f9f9;
+    height: 50rem;
+
+}
+.section-a-division
+{
+
+    margin-top: 3rem;
+}
+.carrier:link ,.carrier:visited{
+
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 2rem;
+   
+    border-radius:4rem;
+    background-color:#5405c2;
+    color: white;
+    padding:1rem;
+    width: 20rem;
+
+
+
+}
+.channel:link,.channel:visited{
+
+    
+    text-decoration: none;
+    display: inline-block;
+    padding:1rem;
+    color: black;
+    width: 20rem;
+}
+.channel:hover{
+
+border-radius: 4rem;
+border: 1px sold #5405c2;
+background-color: #5405c2;
+color: white;
+
+}
+.chat-check-box
+{
+  display: none;
+
+}
+.chat-box-button
+{
+   height:7rem;
+   width:7rem;
+   position: fixed;
+   top:84.5rem;
+   right:5.5rem;
+   z-index: 2000;
+   background-color: white;
+
+
+
+}
+.chat-box-background
+{
+   height: 6rem;
+   width:6rem;
+   position:fixed;
+   top:85rem;
+   right:6rem;
+   border-radius: 2rem;
+   background-color: green;
+   z-index:1000;
+   transform: scaley(0) scalex(0);
+
+}
+.chat-box-nav
+{
+    
+    height: 100vh;
+    width:100%;
+    position:fixed;
+    top:0;
+    right: 0;
+    z-index:1500;
+
+}
